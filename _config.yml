@@ -1,0 +1,10 @@
+# Site settings
+title: Ivory Towers
+email: walther@diechmann.net
+description: "Ivory Towers are a '..willful disconnect from the everyday world; esoteric, over-specialized, or even useless research, and academic elitism.' "
+baseurl: "/ivory_towers"
+url: "http://wdiechmann.github.io/ivory_towers"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
