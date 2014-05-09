@@ -3,14 +3,112 @@ layout: default
 permalink: /installation/composition/
 ---
 
-<div class="home">
+# App Composition
 
-  <h1>App Composition</h1>
+Initial app generation was done with the RailsApp Composer. This may turn you off entirely - and we're sorry to learn that - but building on the shoulders of others is what we believe is the only way forward with software (and the RailsApp Composer is a pretty sleek generator)
 
-	Initial app generation was done with the RailsApp Composer. This may turn you off entirely - and we're sorry to learn that - but building on the shoulders of others is what we believe is
-	the only way forward with software (and the RailsApp Composer is a pretty sleek generator)
+## App Composition Feature Selection
 
-  <h2>App Composition Output</h2>
+### Diagnostics
+
+This application was built with recipes that are NOT known to work together.
+
+This application was built with preferences that are NOT known to work
+together.
+
+If the application doesn’t work as expected, please [report an issue](https://github.com/RailsApps/rails_apps_composer/issues)
+and include these diagnostics:
+
+We’d also like to know if you’ve found combinations of recipes or
+preferences that do work together.
+
+Recipes:
+
+* controllers
+* core
+* deployment
+* email
+* extras
+* frontend
+* gems
+* git
+* init
+* learn_rails
+* models
+* prelaunch
+* rails_bootstrap
+* rails_devise
+* rails_devise_pundit
+* rails_foundation
+* rails_omniauth
+* rails_signup_download
+* railsapps
+* readme
+* routes
+* saas
+* setup
+* testing
+* tests4
+* views
+
+Preferences:
+
+* git: true
+* apps4: none
+* dev_webserver: thin
+* prod_webserver: thin
+* database: mysql
+* templates: haml
+* tests: rspec
+* continuous_testing: guard
+* frontend: bootstrap3
+* email: smtp
+* authentication: devise
+* devise_modules: confirmable
+* authorization: pundit
+* form_builder: simple_form
+* starter_app: admin_app
+* rvmrc: false
+* quiet_assets: true
+* local_env_file: foreman
+* better_errors: true
+* pry: true
+* ban_spiders: true
+* github: true
+* deployment: capistrano3
+
+### Ruby on Rails
+
+
+This application requires:
+
+-   Ruby
+-   Rails
+
+Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
+
+### Database
+
+This application uses MySQL with ActiveRecord.
+
+### Development
+
+-   Template Engine: Haml
+-   Testing Framework: Test::Unit
+-   Front-end Framework: Bootstrap 3.0 (Sass)
+-   Form Builder: SimpleForm
+-   Authentication: Devise
+-   Authorization: None
+-   Admin: None
+
+### Email
+
+The application is configured to send email using a SMTP account.
+
+Email delivery is disabled in development.
+
+
+## App Composition Output
 
 
   {% highlight ruby %}
@@ -1165,5 +1263,3 @@ Use `bundle show [gemname]` to see where a bundled gem is installed.
 * bin/rails: spring inserted
 
   {% endhighlight %}
-
-</div>
