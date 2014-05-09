@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ivory Towers</title>
+    <description>Ivory Towers are a &#39;..willful disconnect from the everyday world; esoteric, over-specialized, or even useless research, and academic elitism.&#39; </description>
+    <link>http://wdiechmann.github.io/ivory_towers/</link>
+    <atom:link href="http://wdiechmann.github.io/ivory_towers/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Welcome to The Ivory Towers!</title>
+        <description>&lt;p&gt;This first revelation will not really reveal that much - it is more like a period indicating that something new is coming!&lt;/p&gt;
+
+&lt;h2 id=&quot;but-what-is-ivory-towers-really&quot;&gt;But what is Ivory Towers really?&lt;/h2&gt;
+
+&lt;p&gt;First of, Ivory Towers is what the &lt;a href=&quot;http://en.wikipedia.org/wiki/Acronym&quot;&gt;acronym&lt;/a&gt; IT stands for - and to detail this somewhat please consider &lt;a href=&quot;http://en.wikipedia.org/wiki/Ivory_tower&quot;&gt;this Wikipedia article on Ivory Tower&lt;/a&gt;!&lt;/p&gt;
+
+&lt;h3 id=&quot;seriously&quot;&gt;Seriously?!&lt;/h3&gt;
+
+&lt;p&gt;Allright, sleeves up, tie off - &lt;/p&gt;
+
+&lt;p&gt;IT is the fabric that ties modern organisations together and helps them excel at what their ambitions are. IT is massive and firm at the foundation and has a sharp pointed tip. &lt;/p&gt;
+
+&lt;h3 id=&quot;oh---and-by-the-way&quot;&gt;Oh - and by the way&lt;/h3&gt;
+
+&lt;p&gt;The API documentation and user manuals for Ivory Towers are made with the fabulous &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; software.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 09 May 2014 12:29:37 +0200</pubDate>
+        <link>http://wdiechmann.github.io/ivory_towers/ivory/towers/update/2014/05/09/welcome-to-ivory_towers/</link>
+        <guid isPermaLink="true">http://wdiechmann.github.io/ivory_towers/ivory/towers/update/2014/05/09/welcome-to-ivory_towers/</guid>
+      </item>
+    
+  </channel>
+</rss>
