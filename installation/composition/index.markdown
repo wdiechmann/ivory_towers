@@ -111,7 +111,7 @@ Email delivery is disabled in development.
 ## App Composition Output
 
 
-  {% highlight ruby %}
+{% highlight ruby %}
 [rails 3] rails new . -m https://raw.github.com/RailsApps/rails-composer/master/composer.rb
        exist  
       create  README.rdoc
@@ -1262,4 +1262,4 @@ Use `bundle show [gemname]` to see where a bundled gem is installed.
 * bin/rake: spring inserted
 * bin/rails: spring inserted
 
-  {% endhighlight %}
+{% endhighlight %}

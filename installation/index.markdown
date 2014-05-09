@@ -11,4 +11,4 @@ This _chapter_ covers a range of odd activities ranging from the initial app com
 
 ### App Composition
 
-We decided on building the app on the output from the RailsApp Composer, and this is what we got: [composition]({{ "/installation/composition" | prepend: site.baseurl }})
+We decided on building the app on the output from the RailsApp Composer, and this is what we got: [composition]({{ "/installation/composition/" | prepend: site.baseurl }})
