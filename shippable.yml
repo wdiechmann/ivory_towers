@@ -4,3 +4,13 @@ language: ruby
 # version numbers
 rvm:
  - 2.1.0
+
+services:
+ - mysql
+
+# MySQL binds to 127.0.0.1 by default and is started on boot. Default username is shippable with no password
+# Create a DB as part of before script to use it
+
+before_script:
+ - ruby bin/ci_before_build.rb
+ - mysql -e 'create database ivory_towers_test;'
