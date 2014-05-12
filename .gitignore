@@ -80,3 +80,6 @@ pickle-email-*.html
 
 # gh-pages generated _site by Jekyll
 /_site
+
+# Rbenv Ruby version
+.ruby-version
